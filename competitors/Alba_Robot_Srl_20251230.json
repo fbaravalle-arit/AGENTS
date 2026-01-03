@@ -1,0 +1,189 @@
+{
+  "company_name": "Alba Robot S.r.l.",
+  "url": "https://www.alba-robot.com/",
+  "analysis_date": "2025-12-30",
+  "executive_summary": {
+    "overview": "Alba Robot is an innovative Italian startup based in Turin, founded in 2019. It specializes in 'Micro-Mobility' and autonomous vehicle solutions for People with Reduced Mobility (PRM). The company aims to transform indoor pedestrian transport by converting passive wheelchairs into autonomous, self-driving fleets managed via a cloud platform.",
+    "brand_details": "The brand blends deep tech (AI, robotics, IoT) with high-end Italian design (partnership with Italdesign). It positions itself as a 'Mobility-as-a-Service' provider rather than just a hardware manufacturer, emphasizing inclusivity, independence, and operational efficiency.",
+    "market_positioning": "Alba Robot positions itself as the 'Waymo of pedestrian areas.' It targets the B2B enterprise market (Airports, Hospitals, Museums) rather than selling directly to consumers, differentiating through its fleet management capabilities and retrofitting technology that bridges the gap between manual aids and full autonomy."
+  },
+  "buyer_personas": [
+    {
+      "title": "The Airport Special Assistance Manager",
+      "description": "Responsible for PRM (Passengers with Reduced Mobility) services. Struggles with staffing shortages and the high labor cost of manually pushing wheelchairs for long distances between gates. Needs a solution to optimize workforce efficiency."
+    },
+    {
+      "title": "The Hospital Logistics/Facility Director",
+      "description": "Oversees patient transport within large medical campuses. Concerned with the efficiency of moving patients between wards and radiology/labs without tying up nurses or porters for simple transport tasks."
+    },
+    {
+      "title": "The Museum Experience Director",
+      "description": "Wants to make the museum accessible to elderly or disabled visitors without them feeling dependent. Looks for a high-tech, aesthetically pleasing solution that enhances the visitor experience."
+    }
+  ],
+  "jobs_to_be_done": {
+    "functional": [
+      "Transport people with reduced mobility (PRM) autonomously from point A to point B",
+      "Return vehicles to charging stations or pick-up points automatically (fleet rebalancing)",
+      "Monitor fleet status and location in real-time",
+      "Reduce physical contact and effort for staff"
+    ],
+    "emotional": [
+      "Restore a sense of independence and dignity to the user (self-driving vs. being pushed)",
+      "Reduce anxiety about missing flights or appointments due to waiting for staff",
+      "Feel innovative and inclusive by adopting cutting-edge assistive tech"
+    ],
+    "social": [
+      "Project an image of a technologically advanced and accessible facility",
+      "Demonstrate commitment to ESG (Environmental, Social, and Governance) goals regarding inclusivity",
+      "Improve passenger/patient satisfaction ratings"
+    ]
+  },
+  "problems_addressed": [
+    {
+      "problem": "Labor Shortages & High Costs",
+      "description": "Airports and hospitals face chronic shortages of staff to push wheelchairs. Manual transport is labor-intensive (1-to-1 ratio) and inefficient."
+    },
+    {
+      "problem": "Loss of User Independence",
+      "description": "Traditional wheelchairs force users to rely on others for movement, which can be dignified and frustrating."
+    },
+    {
+      "problem": "Operational Inefficiency",
+      "description": "Empty wheelchairs are often scattered or lost. Autonomous return functions ensure vehicles are always where they are needed."
+    },
+    {
+      "problem": "Safety & Navigation",
+      "description": "Navigating crowded spaces manually can be dangerous. AI sensors prevent collisions and ensure smooth transport."
+    }
+  ],
+  "value_proposition": {
+    "unique_selling_points": [
+      "Proprietary 'SEDIA' vehicle co-designed with Italdesign for superior ergonomics and aesthetics",
+      "Universal 'Kit' that can retrofit/robotize existing manual wheelchairs",
+      "Voice Assistant integration (Amazon Alexa partnership) for intuitive control",
+      "End-to-end Fleet Management Platform for centralized control"
+    ],
+    "differentiation": "Unlike competitors like Whill who focus heavily on B2C or simple joystick control, Alba Robot focuses on a B2B 'Fleet' approach with full autonomy and centralized management, specifically designed for large complex facilities.",
+    "competitive_advantages": [
+      "Strong ecosystem partnerships (Italdesign, Teoresi, Amazon Alexa)",
+      "Successful pilot programs in major hubs (Torino Airport, Malpensa, Cagliari, Paris CDG)",
+      "Focus on 'Made in Italy' design to reduce the medical stigma of wheelchairs"
+    ]
+  },
+  "problem_uvp_fit": {
+    "fit_level": "High",
+    "analysis": "The solution directly addresses the critical 'staffing crisis' in global travel and healthcare. By offering a robot that multiplies workforce efficiency (one operator can oversee multiple moving robots), the fit with current market pain points is excellent."
+  },
+  "proof_points": {
+    "associations": [
+      "I3P (Politecnico di Torino Incubator)",
+      "Federated Innovation @ MIND",
+      "Confindustria Dispositivi Medici"
+    ],
+    "key_clients": [
+      "Aeroporto di Torino (SAGAT)",
+      "Milan Malpensa Airport (SEA)",
+      "Cagliari Airport",
+      "Paris Charles de Gaulle Airport",
+      "Presidio Sanitario San Camillo"
+    ],
+    "statistics": [
+      "Raised over €8.7M in funding (approx)",
+      "Team of ~28 employees",
+      "Founded 2019",
+      "Test pilots in multiple international airports"
+    ],
+    "testimonials": [
+      "\"We want to become the Waymo of pedestrian areas.\" - Andrea Bertaia, CEO",
+      "Collaboration with Lufthansa Innovation Hub"
+    ]
+  },
+  "products": [
+    {
+      "name": "SEDIA (SEat Designed for Intelligent Autonomy)",
+      "description": "A fully integrated autonomous smart wheelchair designed with Italdesign.",
+      "features": [
+        "Lidar & Vision SLAM navigation",
+        "Ergonomic, non-medical design",
+        "Autonomous return-to-base",
+        "Voice command interface"
+      ],
+      "target_use_case": "Premium transport in Airports and Museums."
+    },
+    {
+      "name": "Autonomous Kit",
+      "description": "A retrofit kit to transform standard manual wheelchairs into self-driving vehicles.",
+      "features": [
+        "Modular sensor suite",
+        "Motorized wheels unit",
+        "Compatible with various wheelchair frames"
+      ],
+      "target_use_case": "Hospitals with existing fleets of wheelchairs."
+    },
+    {
+      "name": "Fleet Management Platform",
+      "description": "Software for the orchestration of the robotic fleet.",
+      "features": [
+        "Real-time tracking",
+        "Mission assignment",
+        "Battery monitoring",
+        "Analytics and reporting"
+      ],
+      "target_use_case": "Control rooms in airports and hospitals."
+    }
+  ],
+  "pricing": {
+    "model": "B2B Mobility-as-a-Service (MaaS)",
+    "purchase_options": {
+      "type": "Contract-based"
+    },
+    "rental_options": {
+      "type": "Fleet Rental / Service Contract",
+      "details": "Facilities likely pay for the service availability or per-usage rather than buying the hardware outright (though purchase options may exist)."
+    },
+    "special_offers": [
+      "Pilot programs and 'Call4Testing' initiatives"
+    ]
+  },
+  "branding": {
+    "tone": "Visionary, Inclusive, Technological, Sophisticated",
+    "colors": [
+      "White",
+      "Tech Blue",
+      "Black",
+      "Orange accents"
+    ],
+    "imagery_focus": "Sleek, futuristic wheelchairs in clean, bright airport terminals; happy users interacting with voice assistants."
+  },
+  "seo": {
+    "primary_keywords": [
+      "Autonomous wheelchair",
+      "Micro-mobility for PRM",
+      "Airport mobility assistance",
+      "Alba Robot Turin",
+      "Self-driving personal vehicle"
+    ],
+    "secondary_keywords": [
+      "Smart hospital transport",
+      "Mobility as a Service Italy",
+      "Italdesign wheelchair",
+      "Indoor autonomous navigation"
+    ]
+  },
+  "ctas": {
+    "primary": [
+      "Contact Us",
+      "Book a Demo"
+    ],
+    "secondary": [
+      "Discover our vision",
+      "Read the news"
+    ],
+    "contact_methods": [
+      "Email (info@alba-robot.com)",
+      "LinkedIn",
+      "Physical HQ in Turin (Corso Castelfidardo)"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+[project]
+name = "agents"
+version = "0.1.0"
+description = "Multi-agent system for creating professional landing pages using Google's Agent Development Kit (ADK)"
+readme = "README.md"
+requires-python = ">=3.14.2"
+dependencies = [
+    "google-adk>=1.21.0",
+    "google-genai>=1.56.0",
+    "mcp>=1.25.0",
+]
