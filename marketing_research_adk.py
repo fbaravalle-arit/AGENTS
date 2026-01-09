@@ -43,7 +43,7 @@ MARKETING_INSTRUCTION = """
 You are an expert Marketing Strategist. Your goal is to analyze a website URL and extract comprehensive marketing intelligence.
 
 You have access to the 'google_search_tool.GoogleSearchTool()' tool to fetch and analyze the website content.
-Read the entire landing page and different sections thoroughly.
+Read the entire landing page and different sections thoroughly. PLEASE FOCUS ON INDUSTRIAL AUTOMATION solutions for manufacturing and logistics.
 
 CRITICAL: You MUST output your analysis ONLY as valid JSON following this exact structure:
 
@@ -203,16 +203,38 @@ if __name__ == "__main__":
         print("="*70 + "\n")
 
         # Vector of competitor URLs to analyze
+        # Vector of competitor URLs to analyze
         urls = [
-            "https://bobrobotics.com/",
-            "https://todsystem.com",
-            "https://www.tobyrobotcameriere.it/",
-            "https://www.pulingross.it/",
-            "https://www.kemcomm.it/",
-            "https://albarobotics.com",
-            "https://www.puduitaly.com/"
+            "https://www.kuka.com",
+            "https://www.loccioni.com",
+            "https://www.manz.com",
+            "https://www.marchesini.com",
+            "https://www.micropsi-industries.com",
+            "https://www.midlandautomation.co.uk",
+            "https://www.mobility.siemens.com",
+            "https://www.movu-robotics.com",
+            "https://www.neura-robotics.com",
+            "https://www.ocme.com",
+            "https://www.olympus-tech.com",
+            "https://www.pal-robotics.com",
+            "https://www.pilz.com",
+            "https://www.primaindustrie.com",
+            "https://www.rfrautomation.com",
+            "https://www.robco.de",
+            "https://www.robot-store.co.uk",
+            "https://www.rockwellautomation.com",
+            "https://www.rockwellautomation.com/en-gb.html",
+            "https://www.sauter-controls.com",
+            "https://www.se.com",
+            "https://www.sick.com",
+            "https://www.siemens.com",
+            "https://www.sitibt.com",
+            "https://www.sptechnology.co.uk",
+            "https://www.staubli.com",
+            "https://www.universal-robots.com",
+            "https://www.wandelbots.com",
+            "https://www.woodplc.com",
         ]
-
         print(f"📋 Total URLs to analyze: {len(urls)}\n")
 
         # Process each URL

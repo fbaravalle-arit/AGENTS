@@ -16,3 +16,7 @@ wheels/
 *.key
 *_credentials.json
 secrets/
+
+# Data directories
+competitors/
+competitive_analysis/
